@@ -1,0 +1,71 @@
+/* XL Device: 1500px */
+@media (min-width:1500px) and (max-width:1700px) {}
+
+/* XL Device: 1200px */
+@media (min-width:1200px) and (max-width:1499px) {
+   }
+   
+/* LG Device: 992px */
+@media (min-width:992px) and (max-width:1199px) {
+
+
+.home-content h1{
+font-size: 74px;
+line-height: 100px;
+}
+.about-right{
+    padding-left: 0;
+}
+.about-left{
+  position: relative;
+  padding-top: 100px;
+}
+}
+/* MD Device: 768px */
+@media (min-width:768px) and (max-width:991px) {
+  .home{
+    padding: 0 15px;
+    }
+    header{
+        padding: 40px 15px;
+    }
+    .home-content h1{
+      font-size: 50px;
+      line-height: 100px;
+      }
+
+
+  .author-img{
+    display: none;
+  } 
+  .about-contact-1,
+  .about-contact-2,
+  .about-contact-3,
+  .about-contact-4{
+    padding-left: 0;
+  }
+
+  .section-title {
+    text-align: center;
+  
+  }
+  .section-title span {
+   text-align: center;
+  }
+  .section-title h3{
+    font-size: 50px;
+    text-align: center;
+   
+  }
+  
+
+
+}
+/* SM Device: 550px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  .author-img{
+    display: none;
+  } 
+
+}
